@@ -1,0 +1,14 @@
+
+{
+	"user":{
+		"name":"John",
+		"location":{
+			"city":"Austin",
+			"state":"TX"
+		},
+		"roles":[
+			"admin",
+			"user"         
+		]
+	}
+}
