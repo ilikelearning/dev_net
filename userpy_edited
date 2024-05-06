@@ -1,13 +1,8 @@
-{
-    "user": {
-        "name": "John",
-        "location": {
-            "city": "Dallas",
-            "state": "TX"
-        },
-        "roles": [
-            "admin",
-            "user"
-        ]
-    }
-}
+user:
+  location:
+    city: Texas
+    state: TX
+  name: John
+  roles:
+  - admin
+  - user

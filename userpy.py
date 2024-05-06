@@ -12,7 +12,7 @@ for role in user['roles']:
 	print(role)
 
 
-user['location']['city'] = 'Califonia'
+user['location']['city'] = 'Texas'
 
 with open('userpy_edited', 'w') as fl:
 	yaml.dump(data,fl,default_flow_style=False)
