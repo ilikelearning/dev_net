@@ -1,9 +1,9 @@
 #!/opt/anaconda3/bin/python
 
-import sys
 as_multiplier = 65536
 
-#asplain = (int(second_2byte) + i) + (int(asdot_split[0]) * as_divisor)
+#asplain = int(second_2byte) + (int(asdot_split[0]) * as_multiplier)
+#asdot = f'{interger}.{int(asplain) - (int(integer) * as_multiplier)}
 
 asdot = input("Enter asdot range | (e.g 65200.5000-65200.6000) :")
 #
@@ -14,6 +14,8 @@ df_asn = int(final_asn.split(".")[1]) - int(start_asn.split(".")[1])
 start_asn_first_part = int(start_asn.split(".")[0])
 start_asn_second_part = int(start_asn.split(".")[1])
 start_asn_split = start_asn.split(".")
+#
+
 
 with open ("as_file.txt", "w") as fl:
     for i in range(df_asn+1):
