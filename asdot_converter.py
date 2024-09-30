@@ -1,9 +1,8 @@
-#!/opt/anaconda3/bin/python
+#!/opt/anaconda3/bin/python3
 
 as_multiplier = 65536
 
 #asplain = int(second_2byte) + (int(asdot_split[0]) * as_multiplier)
-#asdot = f'{interger}.{int(asplain) - (int(integer) * as_multiplier)}
 
 asdot = input("Enter asdot range | (e.g 65200.5000-65200.6000) :")
 #
