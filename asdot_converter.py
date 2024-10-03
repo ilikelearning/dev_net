@@ -23,7 +23,7 @@ start_asn_first_part = int(start_asn.split(".")[0])
 start_asn_second_part = int(start_asn.split(".")[1])
 start_asn_split = start_asn.split(".")
 
-with open ("as_file.txt", "w") as fl:
+with open ("sample_file.txt", "w") as fl:
     for i in range(df_asn+1):
         if start_asn_first_part != final_asn_first_path:
             print(f"ERROR!!!")
