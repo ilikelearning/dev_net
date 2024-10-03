@@ -19,3 +19,13 @@
 | The asplain repr. of 65200.5018 is 4272952218 |
 | The asplain repr. of 65200.5019 is 4272952219 |
 | The asplain repr. of 65200.5020 is 4272952220 |
+| The asplain repr. of 65200.5021 is 4272952221 |
+| The asplain repr. of 65200.5022 is 4272952222 |
+| The asplain repr. of 65200.5023 is 4272952223 |
+| The asplain repr. of 65200.5024 is 4272952224 |
+| The asplain repr. of 65200.5025 is 4272952225 |
+| The asplain repr. of 65200.5026 is 4272952226 |
+| The asplain repr. of 65200.5027 is 4272952227 |
+| The asplain repr. of 65200.5028 is 4272952228 |
+| The asplain repr. of 65200.5029 is 4272952229 |
+| The asplain repr. of 65200.5030 is 4272952230 |
