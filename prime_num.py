@@ -22,8 +22,8 @@ def PrimeNo(x):
         for check in prime_no_check:
             if prime_no_check.count(check) == 1:
                 prime_no_list.append(check)
-        print("Number Sequence is: {}".format(mylist))
-        f.write("Number Sequence is: {}\n".format(mylist))
+        print("Your number Sequence is: {}".format(mylist))
+        f.write("Your number Sequence is: {}\n".format(mylist))
         print(f"Prime Numbers in the sequence: {prime_no_list}")
         f.write(f"Prime Number in the sequence: {prime_no_list}")
     # print(f"Divisor list is {div_list}")
