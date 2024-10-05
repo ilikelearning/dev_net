@@ -25,7 +25,7 @@ def PrimeNo(x):
         print("Your number Sequence is: {}".format(mylist))
         f.write("Your number Sequence is: {}\n".format(mylist))
         print(f"Prime Numbers in the sequence: {prime_no_list}")
-        f.write(f"Prime Number in the sequence: {prime_no_list}")
+        f.write(f"Prime Numbers in the sequence: {prime_no_list}")
     # print(f"Divisor list is {div_list}")
 
 if __name__ == "__main__":
