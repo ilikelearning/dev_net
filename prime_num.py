@@ -28,8 +28,9 @@ def PrimeNo(x):
         f.write(f"Prime Numbers in the sequence: {prime_no_list}")
     # print(f"Divisor list is {div_list}")
 
+
 if __name__ == "__main__":
-    print("A sequence will be created using your range value starting from 0")
+    print("A sequence will be created using your max range value")
     range_val = input("Please provide your range value: ")
     PrimeNo(range_val)
 
