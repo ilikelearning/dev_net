@@ -1,10 +1,14 @@
 import pyeapi
+from getpass import getpass
 
 device_list = ['192.168.1.54', '192.168.1.56']
 
+user = input("username: ")
+passwd = getpass("Password: ")
+
 with open("eos_output_sample.txt", "w") as fl:
 	for device in device_list:
-		node = pyeapi.connect(transport="https", host=device, username="dev_user", password="dev_pass", port=None)
+		node = pyeapi.connect(transport="https", host=device, username=user, password=passwd, port=None)
 		ip_addr = node.execute(["show ip interface brief"])
 		int_discard = node.execute(["show interfaces counters discards"])
 		version = node.execute(["show version"])
@@ -26,5 +30,4 @@ with open("eos_output_sample.txt", "w") as fl:
 		for intf in int_discard['result'][0]['interfaces']:
 			print("| {} has {} Input Discards".format(intf,int_discard['result'][0]['interfaces'][intf]['inDiscards']))
 			fl.write(f"| {intf} has {int_discard['result'][0]['interfaces'][intf]['inDiscards']} Input Discards\n")
-
 
