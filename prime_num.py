@@ -31,7 +31,7 @@ def PrimeNo(x):
 
 if __name__ == "__main__":
     print("A sequence will be created using your max range value")
-    range_val = input("Please provide your range value: ")
+    range_val = input("Please provide your max range value: ")
     PrimeNo(range_val)
 
 
