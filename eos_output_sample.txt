@@ -11,7 +11,7 @@
 | Ethernet8 has ip address 8.1.1.1/24
 | Management1 has ip address 192.168.1.54/24
 +
-| Ethernet1 has 0 Input Discards
+| Ethernet1 has 96 Input Discards
 | Ethernet2 has 0 Input Discards
 | Ethernet3 has 0 Input Discards
 | Ethernet4 has 0 Input Discards
