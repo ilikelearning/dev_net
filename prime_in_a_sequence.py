@@ -32,7 +32,7 @@ def PrimeNo(x):
 if __name__ == "__main__":
     print("="*65)
     print("USER INFORMATION:")
-    print("A sequence will be created from 0 to your max value")
+    print("A sequence will be created from 0 to your max value.")
     print("The script will then determine all prime numbers in the sequence")
     print("="*65)
     range_val = input("Please provide your max range value: ")
