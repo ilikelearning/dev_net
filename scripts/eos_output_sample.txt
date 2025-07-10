@@ -1,0 +1,44 @@
+
+192.168.1.54 - EOS 4.31.5M | IP Address Information
+---------------------------------------------------
+| Ethernet1 has ip address 1.1.1.1/24
+| Ethernet2 has ip address 2.1.1.1/24
+| Ethernet3 has ip address 3.1.1.1/24
+| Ethernet4 has ip address 4.1.1.1/24
+| Ethernet5 has ip address 5.1.1.1/24
+| Ethernet6 has ip address 6.1.1.1/24
+| Ethernet7 has ip address 7.1.1.1/24
+| Ethernet8 has ip address 8.1.1.1/24
+| Management1 has ip address 192.168.1.54/24
++
+| Ethernet1 has 96 Input Discards
+| Ethernet2 has 0 Input Discards
+| Ethernet3 has 0 Input Discards
+| Ethernet4 has 0 Input Discards
+| Ethernet5 has 0 Input Discards
+| Ethernet6 has 0 Input Discards
+| Ethernet7 has 0 Input Discards
+| Ethernet8 has 0 Input Discards
+| Management1 has 0 Input Discards
+
+192.168.1.56 - EOS 4.31.5M | IP Address Information
+---------------------------------------------------
+| Ethernet1 has ip address 1.1.1.2/24
+| Ethernet2 has ip address 2.1.1.2/24
+| Ethernet3 has ip address 3.1.1.2/24
+| Ethernet4 has ip address 4.1.1.2/24
+| Ethernet5 has ip address 5.1.1.2/24
+| Ethernet6 has ip address 6.1.1.2/24
+| Ethernet7 has ip address 7.1.1.2/24
+| Ethernet8 has ip address 8.1.1.2/24
+| Management1 has ip address 192.168.1.56/24
++
+| Ethernet1 has 0 Input Discards
+| Ethernet2 has 0 Input Discards
+| Ethernet3 has 0 Input Discards
+| Ethernet4 has 0 Input Discards
+| Ethernet5 has 0 Input Discards
+| Ethernet6 has 0 Input Discards
+| Ethernet7 has 0 Input Discards
+| Ethernet8 has 0 Input Discards
+| Management1 has 0 Input Discards
